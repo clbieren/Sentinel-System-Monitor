@@ -38,9 +38,10 @@ You can run Sentinel using Docker (recommended) or directly on a Linux/WSL machi
    docker build -t sentinel-app .
    ```
 
-2. **Run the Container**
+2. **Run with Host Access**
+   To monitor your **real machine's** disk usage (C: drive):
    ```bash
-   docker run sentinel-app
+   docker run -v /mnt/c:/host:ro sentinel-app
    ```
 
 ### Method 2: Local Execution (Linux/WSL)
