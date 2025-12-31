@@ -11,7 +11,7 @@
 
 Below is a screenshot of Sentinel running inside a Docker container, detecting critical disk usage on the host Windows machine via volume mounting:
 
-![Sentinel Demo](https://github.com/clbieren/Sentinel-System-Monitor/raw/main/assets/demo.png)
+![Sentinel Demo](https://github.com/clbieren/Sentinel-System-Monitor/blob/main/assets/demo.png.png?raw=true)
 
 ## 🚀 Key Features
 
